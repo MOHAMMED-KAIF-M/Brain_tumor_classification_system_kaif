@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brain Health & Tumor Information</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #eef7ff);
+    color: #1e293b;
+}
+.navbar {
+    backdrop-filter: blur(14px);
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 8px 32px rgba(31,38,135,0.1);
+}
+.section {
+    padding: 100px 0;
+}
+.section-title {
+    color: #2563eb;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.info-card {
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+    padding: 30px;
+    background: white;
+    height: 100%;
+}
+footer {
+    background: linear-gradient(90deg, #1e40af, #2563eb);
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="/">🧠 Brain Tumor AI</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="/">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link active" href="/brain-design">Brain Design</a></li>
+        <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Brain Anatomy -->
+<section class="section mt-5">
+<div class="container">
+  <h2 class="section-title text-center">🧠 Brain Anatomy Overview</h2>
+  <p class="text-center mb-5">
+    The human brain is the control center of the body, responsible for thoughts, memory, emotions, and vital functions.
+  </p>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="info-card">
+        <h5>🧩 Cerebrum</h5>
+        <p>Controls thinking, learning, memory, speech, emotions, and voluntary movements.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="info-card">
+        <h5>⚖️ Cerebellum</h5>
+        <p>Responsible for balance, posture, coordination, and smooth muscle movements.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="info-card">
+        <h5>🫀 Brainstem</h5>
+        <p>Controls vital functions such as breathing, heartbeat, blood pressure, and sleep.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Tumor Types -->
+<section class="section bg-light">
+<div class="container">
+  <h2 class="section-title text-center">🧬 Common Brain Tumor Types</h2>
+
+  <div class="row g-4">
+    <div class="col-md-3">
+      <div class="info-card">
+        <h6>Glioma</h6>
+        <p>Arises from glial cells. Can be aggressive and may affect thinking or movement.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="info-card">
+        <h6>Meningioma</h6>
+        <p>Develops from brain membranes. Usually benign and slow growing.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="info-card">
+        <h6>Pituitary Tumor</h6>
+        <p>Affects hormone regulation and vision due to gland compression.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="info-card">
+        <h6>No Tumor</h6>
+        <p>Normal brain scan without abnormal tissue growth.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Symptoms & Diagnosis -->
+<section class="section">
+<div class="container">
+  <h2 class="section-title text-center">⚠️ Symptoms & Diagnosis</h2>
+
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div class="info-card">
+        <h6>Common Symptoms</h6>
+        <ul>
+          <li>Persistent headaches</li>
+          <li>Seizures</li>
+          <li>Vision or speech problems</li>
+          <li>Memory loss or confusion</li>
+          <li>Hormonal imbalance</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="info-card">
+        <h6>Diagnosis Methods</h6>
+        <ul>
+          <li>MRI & CT scans</li>
+          <li>Biopsy</li>
+          <li>Neurological examination</li>
+          <li>Hormone blood tests</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Prevention -->
+<section class="section bg-light">
+<div class="container text-center">
+  <h2 class="section-title">🛡️ Brain Health & Prevention</h2>
+  <p>
+    While not all brain tumors are preventable, maintaining a healthy lifestyle
+    can support overall brain health.
+  </p>
+  <p>
+    ✔ Regular medical checkups  
+    ✔ Avoid radiation exposure  
+    ✔ Healthy diet & sleep  
+    ✔ Stress management
+  </p>
+</div>
+</section>
+
+<footer>
+  <div class="container">
+    © 2025 Brain Tumor Classification System | Educational Use Only
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
