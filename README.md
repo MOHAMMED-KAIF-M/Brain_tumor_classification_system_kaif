@@ -59,7 +59,7 @@ If the model file was downloaded from GitHub as a small pointer file, install Gi
 git lfs pull
 ```
 
-TensorFlow requires a supported Python version. Use Python 3.10-3.13 for this project, not Python 3.14.
+TensorFlow requires a supported Python version. Use Python 3.10-3.12 for this project, not Python 3.14.
 
 
 Run the Flask application

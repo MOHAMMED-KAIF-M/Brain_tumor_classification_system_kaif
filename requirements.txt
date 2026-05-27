@@ -1,10 +1,9 @@
 flask
 flask-cors
-opencv-python
-numpy
-tensorflow
+opencv-python==4.10.0.84
+numpy<2.0
+tensorflow==2.16.2
 pillow
 python-dotenv
 openai
 requests
-
