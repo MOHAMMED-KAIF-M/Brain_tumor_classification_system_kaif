@@ -53,6 +53,14 @@ git clone https://github.com/YOUR_USERNAME/Brain-Tumor-Classification.git
 cd Brain-Tumor-Classification
 pip install -r requirements.txt
 
+If the model file was downloaded from GitHub as a small pointer file, install Git LFS and run:
+
+```bash
+git lfs pull
+```
+
+TensorFlow requires a supported Python version. Use Python 3.10-3.13 for this project, not Python 3.14.
+
 
 Run the Flask application
 
