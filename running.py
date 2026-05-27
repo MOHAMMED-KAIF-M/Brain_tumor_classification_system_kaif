@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 # ---------------------------------
 # CONFIGURATION
 # ---------------------------------
-MODEL_PATH = "brain_tumor_model_best_1.h5"
+MODEL_PATH = "model_best_final_1.h5"
 
 TEST_DIR = r"C:\Users\Mohammed kaif M\OneDrive\Desktop\Brain tumor\datasets\training"
 

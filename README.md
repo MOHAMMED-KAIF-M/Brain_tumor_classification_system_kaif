@@ -106,7 +106,7 @@ Brain-Tumor-Classification/
 │
 ├─ backend/
 │  ├─ app.py              # Flask backend
-│  ├─ model.h5            # Trained CNN model
+│  ├─ model_best_final_1.h5  # Trained detection model
 │  └─ utils.py            # Preprocessing and helper functions
 │
 ├─ frontend/
@@ -151,4 +151,3 @@ Department: AIML, Sri Krishna Institute of Technology, Bengaluru, India
 
 <img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/13169343-14be-4879-b30d-e60e88977b57" />
 <img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/424eeaff-e788-4f77-95a8-1334cb42fa7c" />
-
